@@ -20,7 +20,7 @@ Reasons why the method is marked as an optional and an internal is to allow
 # Usage
 
 ```sh
-npm i -D @winter-cardinal/typedoc-plugin-named-event
+npm i -D @wcardinal/typedoc-plugin-named-event
 ```
 
 TypeDoc automatically detects the plugin.
