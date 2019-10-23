@@ -1,0 +1,30 @@
+{
+	"name": "@wcardinal/typedoc-plugin-named-event",
+	"version": "1.0.0",
+	"description": "TypeDoc plugin to rename events, remove optional flags and @internal tag for documenting events",
+	"main": "index.js",
+	"license": "Apatche-2.0",
+	"files": [
+		"*.js",
+		"*.js.map"
+	],
+	"scripts": {
+		"watch": "tsc --watch",
+		"build": "tsc"
+	},
+	"keywords": [
+		"TypeDoc",
+		"TypeDocPlugin",
+		"TypeScript",
+		"JavaScript",
+		"jsdoc",
+		"documentation"
+	],
+	"peerDependencies": {
+		"typedoc": ">=0.7 <1.11.1"
+	},
+	"devDependencies": {
+		"typedoc": "^0.15.0",
+		"typescript": "^3.4.1"
+	}
+}
